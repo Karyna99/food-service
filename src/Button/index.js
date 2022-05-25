@@ -1,5 +1,5 @@
-const Button = ({ name }) => {
-    <button>{name}</button>
+const Button = ({ title }) => {
+    <button>{title}</button>
 };
 
 export default Button;

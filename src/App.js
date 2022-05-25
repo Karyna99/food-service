@@ -1,21 +1,27 @@
 import './App.css';
 import Section from './Section';
-import Button from './Button';
+import Container from './Container';
+import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
     <Container>
-      <Header/>
+      <Header />
       <Section
-      title="GET FRESH\n FOOD WITHOUT\n LEAVING HOME"
-      body={<Button/>}
+        title={
+         <>
+          <p>GET FRESH<br /> FOOD WITHOUT<br />LEAVING HOME</p>
+          <button>SUBMIT</button>
+          </>
+        }
       />
-      <Section/>
-      <Section/>
-      <Section/>
-      <Section/>
-      <Section/>
-      <Footer/>
+      <Section />
+      <Section />
+      <Section />
+      <Section />
+      <Section />
+      <Footer />
     </Container>
   )
 }
