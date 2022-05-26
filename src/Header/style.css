@@ -1,0 +1,14 @@
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header__link {
+    margin: 28px;
+}

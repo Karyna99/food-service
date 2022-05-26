@@ -7,26 +7,13 @@ import Popup from './Popup';
 import { useState } from 'react';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const togglePopup = () => {
-    setIsOpen(!isOpen);
-  };
+  
 
   return (
-    <Container>
-      <input
-          type="button"
-          value="Click to Open Popup"
-          onClick={togglePopup}
-        />
-      <Header>
-        
-      </Header>
-      {isOpen && <Popup
-        closePopup={togglePopup}
-      />}
+    <Container> 
+     
       <Section
+        extraContent={<Header/>}
         title={
           <>
             <p>GET FRESH<br /> FOOD WITHOUT<br />LEAVING HOME</p>
