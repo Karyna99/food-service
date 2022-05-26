@@ -1,14 +1,44 @@
 .header {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 41px;
 }
 
 .header__nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.header__links {
     display: flex;
     flex-direction: row;
     list-style: none;
+    padding: 0;
 }
 
 .header__link {
-    margin: 28px;
+    margin: 0 28px;
+    line-height: 34px;
+}
+
+.header__logo {
+    margin: auto;
+}
+
+.header__loginAndCart {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.header__loginButton {
+    border: none;
+    background: none;
+}
+
+.header__price {
+    font-size: 25px;
+    color: #F0D35E;
 }
