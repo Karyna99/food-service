@@ -6,3 +6,12 @@
     margin-top: 20px;
     padding: 40px 100px 40px 32px;
 }
+
+.button:hover {
+    background-color: #E7B942;
+}
+
+.button:active {
+    background-color: #E7B942;
+    box-shadow: inset -2px 8px 24px -17px rgba(66, 68, 90, 1);
+}

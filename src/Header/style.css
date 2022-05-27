@@ -24,6 +24,15 @@
     text-decoration: none;
     color: #252927;
     font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.header__link:hover {
+    border-bottom: 2px #252927 solid;
+}
+
+.header__link:active {
+    border-bottom: 2px #252927 solid;
 }
 
 .header__logo {
@@ -33,7 +42,7 @@
 .header__loginAndCart {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 3em;
+    grid-gap: 4em;
     list-style: none;
     padding: 0;
 }
@@ -48,4 +57,5 @@
     font-size: 25px;
     font-weight: 600;
     color: #F0D35E;
+    margin-right: 15px;
 }
