@@ -3,19 +3,23 @@ import Section from './Section';
 import Container from './Container';
 import Header from './Header';
 import Footer from './Footer';
+import Button from './Button';
 
 function App() {
-  
+
 
   return (
-    <Container> 
-     
+    <Container>
+
       <Section
-        extraContent={<Header/>}
+        imagePath={"https://i.ibb.co/b6PzTFv/hand-holding-half-grapefruit-summertime-23-2149390170-2.png"}
+        extraContent={<Header />}
         title={
           <>
             <p>GET FRESH<br /> FOOD WITHOUT<br />LEAVING HOME</p>
-            <button>SUBMIT</button>
+            <Button
+              title={"SUBMIT"}
+            />
           </>
         }
       />

@@ -1,5 +1,8 @@
 .section {
-    background-image: url(https://ibb.co/ZYBXSN4);
+    background-repeat: no-repeat;
+    background-size:  100% 101%;
+    padding: 5%;
+
 }
 
 .section__header {
@@ -7,5 +10,5 @@
     line-height: 50px;
     font-weight: 600;
     display: block;
-    margin-top: 306px;
+    margin-top: 15%;
 }

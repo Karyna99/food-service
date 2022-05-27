@@ -1,5 +1,9 @@
+import "./style.css";
+
 const Button = ({ title }) => {
-    <button>{title}</button>
+    return (
+        <button className="button">{title}</button>
+    );
 };
 
 export default Button;

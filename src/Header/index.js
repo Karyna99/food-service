@@ -1,6 +1,6 @@
 import "./style.css";
 import { useState } from "react";
-import Popup from "../Popup";
+import Popup from "./Popup";
 import logo from "../images/logo.svg";
 import cart from "../images/cart.svg";
 import profile from "../images/profile.svg"
@@ -30,8 +30,10 @@ const Header = () => {
                 </ul>
             </div>
             <ul className="header__loginAndCart">
-                <li className="header__price">25$</li>
-                <li><img src={cart} alt="cart"></img></li>
+                <ul className="header__links">
+                    <li className="header__price">25$</li>
+                    <li><img src={cart} alt="cart"></img></li>
+                </ul>
                 <li>
                     <button
                         className="header__loginButton"
