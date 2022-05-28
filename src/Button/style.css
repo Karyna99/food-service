@@ -5,6 +5,7 @@
     font-size: 25px;
     margin-top: 20px;
     padding: 40px 100px 40px 32px;
+    cursor: pointer;
 }
 
 .button:hover {
