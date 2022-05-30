@@ -4,13 +4,13 @@ import Container from './Container';
 import Header from './Header';
 import Footer from './Footer';
 import Button from './Button';
+import ProductsGrid from './ProductsGrid';
 
 function App() {
 
 
   return (
     <Container>
-
       <Section
         imagePath={"https://i.ibb.co/b6PzTFv/hand-holding-half-grapefruit-summertime-23-2149390170-2.png"}
         extraContent={<Header />}
@@ -23,7 +23,7 @@ function App() {
           </>
         }
       />
-      <Section />
+      <ProductsGrid />
       <Section />
       <Section />
       <Section />

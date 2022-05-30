@@ -16,9 +16,9 @@ const Header = () => {
         <header className="header">
             <div className="header__nav">
                 <ul className="header__links">
-                    <li><a className="header__link" href="#RU">RU</a></li>
-                    <li><a className="header__link" href="#EN">EN</a></li>
-                    <li><a className="header__link" href="#UA">UA</a></li>
+                    <li><a className="header__link header__lang--inactive" href="#RU">RU</a></li>
+                    <li><a className="header__link header__lang--active" href="#EN">EN</a></li>
+                    <li><a className="header__link header__lang--inactive" href="#UA">UA</a></li>
                 </ul>
                 <img className="header__logo" src={logo} alt="logo"></img>
                 <ul className="header__links">

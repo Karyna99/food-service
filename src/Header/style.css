@@ -18,6 +18,14 @@
     padding: 0;
 }
 
+.header__lang--inactive {
+    color: #9F9F9F !important;
+}
+
+.header__lang--active {
+    border-bottom: 2px #252927 solid
+}
+
 .header__link {
     margin: 0 14px;
     line-height: 34px;
