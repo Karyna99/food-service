@@ -1,5 +1,4 @@
-import "./style.css";
-import ProductCard from "../ProductCard";
+import ProductCard from "./ProductCard";
 
 const products = [
     {
@@ -35,13 +34,14 @@ const products = [
 ];
 
 const ProductsGrid = () => {
+    
     return products.map(product => (
-        <ProductCard
+            <ProductCard
             source={product.source}
             price={product.price}
             product={product.name}
         />
-    ))
+    ));
 };
 
 export default ProductsGrid;

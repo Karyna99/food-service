@@ -4,7 +4,7 @@ import Container from './Container';
 import Header from './Header';
 import Footer from './Footer';
 import Button from './Button';
-import ProductsGrid from './ProductsGrid';
+import ProductsSection from './ProductsSection';
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
           </>
         }
       />
-      <ProductsGrid />
+      <ProductsSection/>
       <Section />
       <Section />
       <Section />
