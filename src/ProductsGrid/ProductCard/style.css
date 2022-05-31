@@ -8,3 +8,7 @@
     width: 350px;
     height: 350px;
 }
+
+.product__price {
+    font-family: "Lato", sans-serif;
+}
