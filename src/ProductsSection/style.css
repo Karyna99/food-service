@@ -1,3 +1,8 @@
+.product__section {
+    margin: auto;
+    padding: 5%;
+}
+
 .products__grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -7,4 +12,11 @@
 
 .products__search {
     display: flex;
+}
+
+.search__bySort {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
 }

@@ -1,14 +1,30 @@
-.product__card {
-    width: 406px;
-    height: 441px;
+/* .product__card {
     margin: auto;
-}
+} */
 
 .product__image {
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
 }
 
 .product__price {
     font-family: "Lato", sans-serif;
+}
+
+.product__shoppingTab {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 5%;
+    padding: 0;
+}
+
+.product__counterButton {
+    border: none;
+    background-color: white;
+
+}
+
+.product__name {
+    color: #9F9F9F;
+    font-size: 14px;
 }

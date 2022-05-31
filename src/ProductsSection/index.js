@@ -3,7 +3,7 @@ import ProductsGrid from "../ProductsGrid";
 
 const ProductsSection = () => {
     return (
-        <section>
+        <section className="product__section">
             <div className="products__search">
                <form>
                    <input className="search__byInput"/>
