@@ -23,8 +23,11 @@ function App() {
           </>
         }
       />
-      <ProductsSection/>
-      <Section />
+      <ProductsSection />
+      <Section
+        imagePath={"https://i.ibb.co/HFSQRJ5/Screenshot-101-1.png"}
+        title={"FRESH BOX SETS"}
+      />
       <Section />
       <Section />
       <Section />

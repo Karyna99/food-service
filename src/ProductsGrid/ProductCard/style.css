@@ -1,10 +1,9 @@
-/* .product__card {
-    margin: auto;
-} */
+.product__card {
+    padding: 2em;
+}
 
 .product__image {
-    width: 150px;
-    height: 150px;
+    width: 100%;
 }
 
 .product__price {
@@ -12,16 +11,25 @@
 }
 
 .product__shoppingTab {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 5%;
+    display: flex;
+    justify-content: space-between;
     padding: 0;
+}
+
+.product__count {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.product__count:nth-child(1) {
+    margin-bottom: 1em;
 }
 
 .product__counterButton {
     border: none;
     background-color: white;
-
+    font-size: 24px;
 }
 
 .product__name {
