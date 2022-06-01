@@ -24,12 +24,15 @@ const ProductCard = ({ price, product, source }) => {
             </p>
             <ul className="product__shoppingTab">
             <div className="product__count">
-                <button onClick={decrease} className="product__counterButton">-</button>
+                <button 
+                onClick={decrease} 
+                className={`product__counterButton ${count ? "" : "disabled"}`}
+                >-</button>
                 <span>{count}</span>
                 <button onClick={increase} className="product__counterButton">+</button>
             </div>
                 <span className="product__name">{product.toUpperCase()}</span>
-                <img src={cart} alt=""/>
+                <img className={`product__cart ${count ? "" : "cart__disabled"}`} src={cart} alt=""/>
             </ul>
         </div>
     );

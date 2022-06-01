@@ -4,32 +4,32 @@ const products = [
     {
         name: "banana",
         price: 2,
-        source: "https://i.ibb.co/FYm36yy/banan-card.png"
+        source: "https://i.ibb.co/0sL9DHT/banan-card.jpg"
     },
     {
         name: "watermelon",
         price: 9,
-        source: "https://i.ibb.co/0tZPr5V/watermelon-card.png"
+        source: "https://i.ibb.co/SXBb7wS/watermelon-card.jpg"
     },
     {
         name: "pear",
         price: 5,
-        source: "https://i.ibb.co/BgxC38z/pear-card.png"
+        source: "https://i.ibb.co/6rp6zvp/pear-card.jpg"
     },
     {
         name: "orange",
         price: 7,
-        source: "https://i.ibb.co/J7zKCWV/orange-card.png"
+        source: "https://i.ibb.co/D8yKcp1/orange-card.jpg"
     },
     {
         name: "apple",
         price: 3,
-        source: "https://i.ibb.co/jJ5KXwR/apple-card.png"
+        source: "https://i.ibb.co/KFqsJ69/apple-card.jpg"
     },
     {
         name: "strawberry",
         price: 15,
-        source: "https://i.ibb.co/KGnGspm/strawberry-card.png"
+        source: "https://i.ibb.co/nm2Dqq7/strawberry-card.jpg"
     }
 ];
 

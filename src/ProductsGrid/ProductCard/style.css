@@ -8,6 +8,7 @@
 
 .product__price {
     font-family: "Lato", sans-serif;
+    font-size: 24px;
 }
 
 .product__shoppingTab {
@@ -16,24 +17,29 @@
     padding: 0;
 }
 
-.product__shoppingTab > img {
+.product__cart {
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .product__count {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .product__count:nth-child(1) {
     margin-bottom: 1em;
 }
 
+
 .product__counterButton {
     border: none;
+    font-family: "Lato", sans-serif;
     background-color: white;
-    font-size: 24px;
+    font-size: 26px;
+    cursor: pointer;
 }
 
 .product__name {
@@ -41,4 +47,14 @@
     font-size: 14px;
     margin: 0;
     margin-top: 5px;
+}
+
+.disabled {
+    color: #9F9F9F;
+    cursor: default;
+}
+
+.cart__disabled {
+    filter: invert(69%) sepia(0%) saturate(305%) hue-rotate(210deg) brightness(90%) contrast(98%);
+    cursor: default;
 }
