@@ -61,6 +61,14 @@
     cursor: pointer;
 }
 
+.header__loginButton:hover {
+    filter: invert(67%) sepia(75%) saturate(307%) hue-rotate(355deg) brightness(97%) contrast(94%);  
+}
+
+.header__loginButton:active {
+    filter: invert(94%) sepia(28%) saturate(4498%) hue-rotate(316deg) brightness(111%) contrast(88%);
+}
+
 .header__price {
     font-size: 25px;
     font-weight: 600;
