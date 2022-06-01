@@ -1,6 +1,8 @@
 .product__section {
     margin: auto;
     padding: 5%;
+    height: 200%;
+    margin-bottom: 10%;
 }
 
 .products__grid {

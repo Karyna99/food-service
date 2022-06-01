@@ -27,6 +27,7 @@ function App() {
       <Section
         imagePath={"https://i.ibb.co/HFSQRJ5/Screenshot-101-1.png"}
         title={"FRESH BOX SETS"}
+        body={<div>vhvvfbsvnb</div>}
       />
       <Section />
       <Section />

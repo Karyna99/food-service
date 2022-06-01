@@ -1,6 +1,10 @@
 .section {
     background-repeat: no-repeat;
-    background-size:  100% 100%;
+    min-height: 789px;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
     padding: 5%;
 }
 
