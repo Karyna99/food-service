@@ -13,11 +13,55 @@
 
 .products__search {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
 }
 
 .search__bySort {
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding: 0;
+    padding: 0 10px;
+    justify-content: space-between;
+    color: #252927;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.button__bySort {
+    border: none;
+    background-color: white;
+    color: #9F9F9F;
+    font-weight: 600;
+}
+
+.button__bySort:hover {
+    border-bottom: 2px #252927 solid;
+    color: #252927;
+    cursor: pointer;
+}
+
+.button__bySort:active {
+    border-bottom: 2px #252927 solid;
+    color: #252927;
+}
+
+.search__button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.search__input {
+    border: none;
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+.search__byInput {
+    display: flex;
+    border-bottom: 1px solid #9F9F9F;
+    padding-bottom: 5px;
 }
