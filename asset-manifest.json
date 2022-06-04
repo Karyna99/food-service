@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/food-service/static/css/main.1c8785f7.css",
-    "main.js": "/food-service/static/js/main.3457404b.js",
+    "main.css": "/food-service/static/css/main.ca877f56.css",
+    "main.js": "/food-service/static/js/main.28894fe0.js",
     "static/js/787.8fa44975.chunk.js": "/food-service/static/js/787.8fa44975.chunk.js",
     "static/media/profile.svg": "/food-service/static/media/profile.eb872dddfe3ef143314e586d163430db.svg",
     "static/media/cart.svg": "/food-service/static/media/cart.9d90c46b0cfe89a2bd964852f7281540.svg",
     "static/media/logo.svg": "/food-service/static/media/logo.ead620fff39522f1d5ef94d58bb8bcb3.svg",
     "index.html": "/food-service/index.html",
     "static/media/Vector.svg": "/food-service/static/media/Vector.8b891ffe83362f3c83c9226e6c065a29.svg",
-    "main.1c8785f7.css.map": "/food-service/static/css/main.1c8785f7.css.map",
-    "main.3457404b.js.map": "/food-service/static/js/main.3457404b.js.map",
+    "static/media/arrow_previous.svg": "/food-service/static/media/arrow_previous.ea9f560e68444022d70d793bfdf929bd.svg",
+    "static/media/arrow_next.svg": "/food-service/static/media/arrow_next.5c927adfd738ff529900734fe22ece9b.svg",
+    "main.ca877f56.css.map": "/food-service/static/css/main.ca877f56.css.map",
+    "main.28894fe0.js.map": "/food-service/static/js/main.28894fe0.js.map",
     "787.8fa44975.chunk.js.map": "/food-service/static/js/787.8fa44975.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c8785f7.css",
-    "static/js/main.3457404b.js"
+    "static/css/main.ca877f56.css",
+    "static/js/main.28894fe0.js"
   ]
 }
