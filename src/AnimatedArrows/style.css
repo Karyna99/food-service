@@ -1,0 +1,5 @@
+.div__arrows {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20%;
+}
