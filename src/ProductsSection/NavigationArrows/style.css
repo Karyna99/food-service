@@ -1,0 +1,21 @@
+.navigation__arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation__text {
+    margin: 0 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #9F9F9F;
+}
+
+.navigation__text--current {
+    color: #252927;
+}
+
+.arrowButton {
+    cursor: pointer;
+}

@@ -65,3 +65,10 @@
     border-bottom: 1px solid #9F9F9F;
     padding-bottom: 5px;
 }
+
+.products__navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
