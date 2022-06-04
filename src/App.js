@@ -5,6 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Button from './Button';
 import ProductsSection from './ProductsSection';
+import AnimatedArrows from './AnimatedArrows';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       <Section
         imagePath={"https://i.ibb.co/HFSQRJ5/Screenshot-101-1.png"}
         title={"FRESH BOX SETS"}
-        body={<div>vhvvfbsvnb</div>}
+        body={<AnimatedArrows/>}
       />
       <Section />
       <Section />
