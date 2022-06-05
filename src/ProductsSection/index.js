@@ -3,9 +3,12 @@ import ProductsGrid from "../ProductsGrid";
 import search from "../images/Vector.svg";
 import NavigationArrows from "./NavigationArrows";
 
-const ProductsSection = () => {
+const ProductsSection = ({ sectionName }) => {
     return (
-        <section className="product__section">
+        <section
+            id={sectionName}
+            className="product__section"
+        >
             <div className="products__navigation">
                 <div className="products__search">
                     <div className="search__byInput">

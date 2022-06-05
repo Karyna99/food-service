@@ -1,8 +1,8 @@
 import "./style.css";
 
-const BigText = ({title, name}) => {
+const BigText = ({title, name, sectionName}) => {
     return (
-        <h2 className={name}>{title}</h2>
+        <h2 id={sectionName} className={name}>{title}</h2>
     )
 }
 

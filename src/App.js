@@ -14,6 +14,7 @@ function App() {
   return (
     <Container>
       <Section
+        sectionName={"main"}
         imagePath={"https://i.ibb.co/b6PzTFv/hand-holding-half-grapefruit-summertime-23-2149390170-2.png"}
         extraContent={<Header />}
         title={
@@ -25,20 +26,24 @@ function App() {
           </>
         }
       />
-      <ProductsSection />
+      <ProductsSection
+        sectionName={"shop"}
+      />
       <Section
         imagePath={"https://i.ibb.co/HFSQRJ5/Screenshot-101-1.png"}
         title={"FRESH BOX SETS"}
-        body={<AnimatedArrows/>}
+        body={<AnimatedArrows />}
       />
       <BigText
-      title={"ABOUT"}
-      name={"header__default"}
+        sectionName={"about"}
+        title={"ABOUT"}
+        name={"header__default"}
       />
       <Section />
       <BigText
-      title={"FAQ"}
-      name={"header__default"}
+        sectionName={"faq"}
+        title={"FAQ"}
+        name={"header__default"}
       />
       <Section />
       <Footer />
