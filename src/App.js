@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Button from './Button';
 import ProductsSection from './ProductsSection';
 import AnimatedArrows from './AnimatedArrows';
+import BigText from './BigText';
 
 function App() {
 
@@ -30,8 +31,15 @@ function App() {
         title={"FRESH BOX SETS"}
         body={<AnimatedArrows/>}
       />
+      <BigText
+      title={"ABOUT"}
+      name={"header__default"}
+      />
       <Section />
-      <Section />
+      <BigText
+      title={"FAQ"}
+      name={"header__default"}
+      />
       <Section />
       <Footer />
     </Container>
