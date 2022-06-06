@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 2rem;
+    grid-gap: 3rem;
 }
 
 .products__search {

@@ -9,7 +9,7 @@ const products = [
     {
         name: "watermelon",
         price: 9,
-        source: "https://i.ibb.co/SXBb7wS/watermelon-card.jpg"
+        source: "https://i.ibb.co/tMGT8vJ/mockup-graphics-13-PBli-WTDng-unsplash.jpg"
     },
     {
         name: "pear",
