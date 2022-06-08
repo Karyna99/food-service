@@ -3,7 +3,7 @@ import cart from "./cart.svg";
 import { useState } from "react";
 
 
-const ProductCard = ({ price, product, source }) => {
+const ProductCard = ({ price, product, source, id }) => {
     const[count, setCount] = useState(0);
 
     const increase = () => {
@@ -17,7 +17,7 @@ const ProductCard = ({ price, product, source }) => {
     };
 
     return (
-        <div className="product__card">
+        <div key={product.id} className="product__card">
             <img className="product__image" src={source} alt={product}/>
             <p className="product__price">
                 {`1KG = ${price}$`}
