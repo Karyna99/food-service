@@ -9,7 +9,7 @@ const ProductsSection = ({ sectionName }) => {
     const [q, setQ] = useState("");
 
     const filteredProducts = products.filter((product) => {
-            return product.name.toLowerCase().includes(q)
+        return product.name.toLowerCase().includes(q)
     });
 
     return (
@@ -20,9 +20,7 @@ const ProductsSection = ({ sectionName }) => {
             <div className="products__navigation">
                 <div className="products__search">
                     <div className="search__byInput">
-                        <button
-                            className="search__button"
-                        >
+                        <button className="search__button">
                             <img src={search} alt="" />
                         </button>
                         <input
