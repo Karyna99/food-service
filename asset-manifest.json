@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/food-service/static/css/main.6e2a9787.css",
-    "main.js": "/food-service/static/js/main.3a1a80ac.js",
+    "main.css": "/food-service/static/css/main.c3226774.css",
+    "main.js": "/food-service/static/js/main.93fa480b.js",
     "static/js/787.8fa44975.chunk.js": "/food-service/static/js/787.8fa44975.chunk.js",
+    "static/media/youtube.svg": "/food-service/static/media/youtube.fa2b2479bb2c7fe729b53c1c78bf432d.svg",
+    "static/media/app_store.svg": "/food-service/static/media/app_store.bcf7f050ccf220c213528eb0cac0bff8.svg",
+    "static/media/google_play.svg": "/food-service/static/media/google_play.793be215cafafbd6206ea270a1531255.svg",
+    "static/media/instagram.svg": "/food-service/static/media/instagram.01af3cfd34e9bdd99739277f8a2511cd.svg",
+    "static/media/facebook.svg": "/food-service/static/media/facebook.3288bb4808501373c352a65fcee9e28d.svg",
     "static/media/profile.svg": "/food-service/static/media/profile.eb872dddfe3ef143314e586d163430db.svg",
     "static/media/cart.svg": "/food-service/static/media/cart.9d90c46b0cfe89a2bd964852f7281540.svg",
     "static/media/logo.svg": "/food-service/static/media/logo.ead620fff39522f1d5ef94d58bb8bcb3.svg",
@@ -10,12 +15,12 @@
     "static/media/Vector.svg": "/food-service/static/media/Vector.8b891ffe83362f3c83c9226e6c065a29.svg",
     "static/media/arrow_previous.svg": "/food-service/static/media/arrow_previous.ea9f560e68444022d70d793bfdf929bd.svg",
     "static/media/arrow_next.svg": "/food-service/static/media/arrow_next.5c927adfd738ff529900734fe22ece9b.svg",
-    "main.6e2a9787.css.map": "/food-service/static/css/main.6e2a9787.css.map",
-    "main.3a1a80ac.js.map": "/food-service/static/js/main.3a1a80ac.js.map",
+    "main.c3226774.css.map": "/food-service/static/css/main.c3226774.css.map",
+    "main.93fa480b.js.map": "/food-service/static/js/main.93fa480b.js.map",
     "787.8fa44975.chunk.js.map": "/food-service/static/js/787.8fa44975.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e2a9787.css",
-    "static/js/main.3a1a80ac.js"
+    "static/css/main.c3226774.css",
+    "static/js/main.93fa480b.js"
   ]
 }
