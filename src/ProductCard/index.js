@@ -1,5 +1,5 @@
 import "./style.css";
-import cart from "./cart.svg";
+import cart from "../images/cart.svg";
 import { useState } from "react";
 
 
