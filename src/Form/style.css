@@ -1,0 +1,25 @@
+.form {
+    padding: 60px;
+}
+
+.form__fieldset {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.form__input {
+    border: none;
+    outline: none;
+    border-bottom: 1px #9F9F9F solid;
+    padding-bottom: 1em;
+    font-weight: 600;
+    width: 25%;
+}
+
+.form__paragraph {
+    color: #9F9F9F;
+    font-size: 10px;
+}

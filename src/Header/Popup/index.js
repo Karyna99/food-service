@@ -1,14 +1,21 @@
-import "./style.css"
+import "./style.css";
+import Form from "../../Form";
+import Button from "../../Button";
 
-const Popup = ({content, closePopup}) => {
+const Popup = ({ closePopup }) => {
     return (
         <div className="popup__container">
             <div className="popup__content">
-                <span
+                <button
                     className="popup__closeIcon"
                     onClick={closePopup}
-                >x</span>
-                {content}
+                >x</button>
+                <Form
+                    placeholder={"PASSWORD"}
+                    button={<Button
+                        title={"LOG IN"}
+                    />}
+                />
             </div>
         </div>
     )
