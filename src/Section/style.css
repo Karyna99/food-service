@@ -11,3 +11,19 @@
     display: block;
     margin-top: 15%;
 }
+
+.section--about {
+    margin: -5px;
+    padding: 5%;
+}
+
+.section__header--about {
+    margin: 0;
+    margin-bottom: 2em;
+    font-size: 45px;
+}
+
+.section__paragraph--about {
+    font-weight: 700;
+    line-height: 1.5em;
+}

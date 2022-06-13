@@ -1,5 +1,5 @@
 import './App.css';
-import Section from './Section';
+import Section, { SectionAbout } from './Section';
 import Container from './Container';
 import Header from './Header';
 import Footer from './Footer';
@@ -44,17 +44,19 @@ function App() {
         imagePath={"https://i.ibb.co/9NGjQSd/flat-lay-vegetables-with-copy-space-1.jpg"}
         body={
           <>
-            <Stats 
-            num={1000}
-            description={"deliveries made"}
+            <Stats
+              num={1000}
+              description={"deliveries made"}
             />
             <Stats
-            num={25}
-            description={"cities"}
+              num={25}
+              description={"cities"}
             />
           </>
         }
       />
+      <SectionAbout
+      imagePath={"https://i.ibb.co/Ycfkg3s/back.jpg"}/>
       <BigText
         sectionName={"faq"}
         title={"FAQ"}
