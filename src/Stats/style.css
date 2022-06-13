@@ -1,0 +1,16 @@
+.stats__container {
+    color: #F0D35E;
+    font-weight: 400;
+    margin-bottom: 4em;
+}
+
+.stats__number {
+    font-size: 90px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.stats__description {
+    font-size: 20px;
+    margin: 0;
+}

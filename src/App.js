@@ -7,6 +7,7 @@ import Button from './Button';
 import ProductsSection from './ProductsSection';
 import AnimatedArrows from './AnimatedArrows';
 import BigText from './BigText';
+import Stats from './Stats';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <Container>
       <Section
         sectionName={"main"}
-        imagePath={"https://i.ibb.co/b6PzTFv/hand-holding-half-grapefruit-summertime-23-2149390170-2.png"}
+        imagePath={"https://i.ibb.co/86bkSHv/hand-holding-half-grapefruit-summertime-23-2149390170-min.jpg"}
         extraContent={<Header />}
         title={
           <>
@@ -39,7 +40,21 @@ function App() {
         title={"ABOUT"}
         name={"header__default"}
       />
-      <Section />
+      <Section
+        imagePath={"https://i.ibb.co/9NGjQSd/flat-lay-vegetables-with-copy-space-1.jpg"}
+        body={
+          <>
+            <Stats 
+            num={1000}
+            description={"deliveries made"}
+            />
+            <Stats
+            num={25}
+            description={"cities"}
+            />
+          </>
+        }
+      />
       <BigText
         sectionName={"faq"}
         title={"FAQ"}

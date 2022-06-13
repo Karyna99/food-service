@@ -26,7 +26,7 @@ const Footer = () => {
                     <img src={googlePlay} alt="" />
                     <img src={appStore} alt="" />
                 </div>
-                <div className="footer__links--socialMedia">
+                <div className="footer__links--socialMedia" id="contacts">
                 <img src={youtube} alt="" />
                 <img src={facebook} alt="" />
                 <img src={instagram} alt="" />
