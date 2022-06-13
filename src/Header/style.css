@@ -20,6 +20,7 @@
 
 .header__lang--inactive {
     color: #9F9F9F !important;
+    border: none !important;
 }
 
 .header__lang--active {
