@@ -8,6 +8,7 @@ import ProductsSection from './ProductsSection';
 import AnimatedArrows from './AnimatedArrows';
 import BigText from './BigText';
 import Stats from './Stats';
+import Form from './Form';
 
 function App() {
 
@@ -56,13 +57,30 @@ function App() {
         }
       />
       <SectionAbout
-      imagePath={"https://i.ibb.co/Ycfkg3s/back.jpg"}/>
+        imagePath={"https://i.ibb.co/Ycfkg3s/back.jpg"} />
       <BigText
         sectionName={"faq"}
         title={"FAQ"}
         name={"header__default"}
       />
       <Section />
+      <Section
+        imagePath={"https://i.ibb.co/PZ64V8w/Screenshot-1.jpg"}
+        body={
+          <>
+            <BigText
+              title={"SUBMIT"}
+              name={"header__form"}
+            />
+            <p>If you need advice or have questions about our products, <br />
+              please fill out the form, our manager will contact you</p>
+            <Form />
+            <Button
+              title={"SUBMIT"}
+            />
+          </>
+        }
+      />
       <Footer />
     </Container>
   )

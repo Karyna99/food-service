@@ -4,3 +4,10 @@
     font-size: 200px;
     margin: 200px 0 50px 0;
 }
+
+.header__form {
+    font-weight: 600;
+    font-size: 200px;
+    margin: 0;
+    margin-top: -10%;
+}
