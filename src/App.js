@@ -74,7 +74,9 @@ function App() {
             />
             <p>If you need advice or have questions about our products, <br />
               please fill out the form, our manager will contact you</p>
-            <Form />
+            <Form
+              placeholder={"MOBILE NUMBER"}
+            />
             <Button
               title={"SUBMIT"}
             />
