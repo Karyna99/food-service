@@ -2,7 +2,7 @@
 
 ## Demo
 
-I want to introduce you a [website](https://karyna99.github.io/food-service/), which can help you to eat more healthy and lead a healthier lifestyle! Food Service allows you to order fruits and vegetables online, so there's no need to go outside. We also offer packages with random fruits&veggies, so you can diversify your diet even more! This landing page was designed by Nastya Solovtsova.
+I want to introduce you a [website](https://karyna99.github.io/food-service/), which can help you to eat more healthy and lead a healthier lifestyle! Food Service allows you to order fruits and vegetables online, so there's no need to go outside. We also offer packages with random fruits&veggies, so you can diversify your diet even more! This landing page was designed by [Nastya Solovtsova](https://www.behance.net/nastyasolovts).
 
 ## Preview
 
