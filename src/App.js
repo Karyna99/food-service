@@ -9,6 +9,7 @@ import AnimatedArrows from './AnimatedArrows';
 import BigText from './BigText';
 import Stats from './Stats';
 import Form from './Form';
+import Tabs from './FAQ';
 
 function App() {
 
@@ -63,7 +64,9 @@ function App() {
         title={"FAQ"}
         name={"header__default"}
       />
-      <Section />
+      <Section
+        body={<Tabs />}
+      />
       <Section
         imagePath={"https://i.ibb.co/PZ64V8w/Screenshot-1.jpg"}
         body={

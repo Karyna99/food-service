@@ -1,0 +1,41 @@
+.tabs {
+    margin-right: 25%;
+}
+
+.tabs__questions {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10%;
+    align-items: baseline;
+}
+
+.tab__button {
+    border: none;
+    background-color: white;
+    color: #9F9F9F;
+    font-weight: 700;
+    padding: 2em 0;
+    line-height: 1.5em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.tab__button:hover {
+    color: #252927;
+}
+
+.button--active {
+    color: #252927;
+    border-bottom: 1px #252927 solid;
+}
+
+.answer__content {
+    display: none;
+}
+
+.answer--active {
+    display: flex;
+    margin-top: 15%;
+    text-align: right;
+    width: 20%;
+}
