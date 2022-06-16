@@ -1,5 +1,5 @@
 import "./style.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Popup from "./Popup";
 import logo from "../images/logo.svg";
 import cart from "../images/cart.svg";
@@ -7,13 +7,25 @@ import profile from "../images/profile.svg"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [sticky, setSticky] = useState("");
+
+    useEffect(() => {
+        window.addEventListener("scroll", isSticky);
+        return (() => window.removeEventListener("sticky", isSticky))
+    }, []);
+
+    const isSticky = () => {
+        const scrollTop = window.scrollY;
+        const stickyClass = scrollTop >= 250 ? "header--sticky" : "";
+        setSticky(stickyClass);
+    };
 
     const togglePopup = () => {
         setIsOpen(!isOpen);
     };
 
     return (
-        <header className="header">
+        <header className={`header ${sticky}`}>
             <div className="header__nav">
                 <ul className="header__links">
                     <li><a className="header__link header__lang--inactive" href="#RU">RU</a></li>
