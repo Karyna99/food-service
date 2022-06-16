@@ -34,8 +34,8 @@
 }
 
 .answer--active {
-    display: flex;
-    margin-top: 15%;
-    text-align: right;
+    display: block;
+    margin: 50% 0 50% auto;
     width: 20%;
+    height: 5em;
 }

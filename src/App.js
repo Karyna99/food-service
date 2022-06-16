@@ -65,6 +65,7 @@ function App() {
         name={"header__default"}
       />
       <Section
+        imagePath={"https://i.ibb.co/hH9FJk9/Screenshot-112.jpg"}
         body={<Tabs />}
       />
       <Section
