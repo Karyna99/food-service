@@ -38,26 +38,26 @@ const Tabs = () => {
                 </button>
             </div>
             <div className="tabs__answers">
-                <div
+                <p
                     className={`answer__content ${activeTab === 0 ? "answer--active" : ""}`}
                 >
                     Elit exercitation laborum consectetur sit.
-                </div>
-                <div
+                </p>
+                <p
                     className={`answer__content ${activeTab === 1 ? "answer--active" : ""}`}
                 >
                     Elit exercitation laborum consectetur sit.
-                </div>
-                <div
+                </p>
+                <p
                     className={`answer__content ${activeTab === 2 ? "answer--active" : ""}`}
                 >
-                    YOU CAN PAY FOR DELIVERY ONLINE, AS WELL AS BY CARD OR IN CASH TO THE COURIER
-                </div>
-                <div
+                    You can pay for delivery online, as well as by card or in cash to the courier
+                </p>
+                <p
                     className={`answer__content ${activeTab === 3 ? "answer--active" : ""}`}
                 >
                     Elit exercitation laborum consectetur sit.
-                </div>
+                </p>
             </div>
         </div>
     );

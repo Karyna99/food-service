@@ -26,7 +26,7 @@
 
 .button--active {
     color: #252927;
-    border-bottom: 1px #252927 solid;
+    border-bottom: 2px #252927 solid;
 }
 
 .answer__content {
@@ -35,7 +35,7 @@
 
 .answer--active {
     display: block;
-    margin: 50% 0 50% auto;
+    margin: 40% 0 50% auto;
     width: 20%;
     height: 5em;
 }
