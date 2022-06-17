@@ -32,7 +32,13 @@ const Header = () => {
                     <li><a className="header__link header__lang--active" href="#EN">EN</a></li>
                     <li><a className="header__link header__lang--inactive" href="#UA">UA</a></li>
                 </ul>
-                <img className="header__logo" src={logo} alt="logo"></img>
+                <a href="#main">
+                    <img
+                        className="header__logo"
+                        src={logo}
+                        alt="logo"
+                    ></img>
+                </a>
                 <ul className="header__links">
                     <li><a className="header__link" href="#main">MAIN</a></li>
                     <li><a className="header__link" href="#shop">SHOP</a></li>
