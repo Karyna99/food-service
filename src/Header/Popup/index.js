@@ -1,6 +1,7 @@
 import "./style.css";
 import Form from "../../Form";
 import Button from "../../Button";
+import PasswordInput from "../../Form/passwordInput";
 
 const Popup = ({ closePopup }) => {
     return (
@@ -11,7 +12,13 @@ const Popup = ({ closePopup }) => {
                     onClick={closePopup}
                 >x</button>
                 <Form
-                    placeholder={"PASSWORD"}
+                    lastInput={<PasswordInput />}
+                    extraContent={
+                        <div className="form__loginButtons">
+                            <button className="form__loginButton">Log in</button>
+                            <button className="form__loginButton">Sign up</button>
+                        </div>
+                    }
                     button={<Button
                         title={"LOG IN"}
                     />}

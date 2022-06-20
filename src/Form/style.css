@@ -23,3 +23,8 @@
     color: #9F9F9F;
     font-size: 10px;
 }
+
+.input__button {
+    border: none;
+    background-color: white;
+}
