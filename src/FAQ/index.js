@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./style.css";
+import { data } from "./data.js";
 
 
 const Tabs = () => {
@@ -12,52 +13,21 @@ const Tabs = () => {
     return (
         <div className="tabs">
             <div className="tabs__questions">
-                <button
-                    className={`tab__button ${activeTab === 0 ? "button--active" : ""}`}
-                    onClick={() => toggleTab(0)}
-                >
-                    HOW FAST IS DELIVERY?
-                </button>
-                <button
-                    className={`tab__button ${activeTab === 1 ? "button--active" : ""}`}
-                    onClick={() => toggleTab(1)}
-                >
-                    HOW MUCH DOES SHIPPING COST?
-                </button>
-                <button
-                    className={`tab__button ${activeTab === 2 ? "button--active" : ""}`}
-                    onClick={() => toggleTab(2)}
-                >
-                    HOW TO PAY FOR THE DELIVERY SERVICE?
-                </button>
-                <button
-                    className={`tab__button ${activeTab === 3 ? "button--active" : ""}`}
-                    onClick={() => toggleTab(3)}
-                >
-                    CAN I PAY BY CARD TO THE COURIER?
-                </button>
+                {data.map(question => (
+                    <button
+                        className={`tab__button ${activeTab === question.id ? "button--active" : ""}`}
+                        onClick={() => toggleTab(question.id)}
+                    >{question.question}</button>
+                ))}
             </div>
             <div className="tabs__answers">
-                <p
-                    className={`answer__content ${activeTab === 0 ? "answer--active" : ""}`}
+                {data.map(question => (
+                    <p
+                    className={`answer__content ${activeTab === question.id ? "answer--active" : ""}`}
                 >
-                    Elit exercitation laborum consectetur sit.
+                    {question.answer}
                 </p>
-                <p
-                    className={`answer__content ${activeTab === 1 ? "answer--active" : ""}`}
-                >
-                    Elit exercitation laborum consectetur sit.
-                </p>
-                <p
-                    className={`answer__content ${activeTab === 2 ? "answer--active" : ""}`}
-                >
-                    You can pay for delivery online, as well as by card or in cash to the courier
-                </p>
-                <p
-                    className={`answer__content ${activeTab === 3 ? "answer--active" : ""}`}
-                >
-                    Elit exercitation laborum consectetur sit.
-                </p>
+                ))}
             </div>
         </div>
     );
