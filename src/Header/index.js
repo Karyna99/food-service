@@ -1,5 +1,8 @@
 import "./style.css";
 import { useEffect, useState } from "react";
+import Form from "./../Form";
+import Button from "./../Button";
+import PasswordInput from "./../Form/passwordInput";
 import Popup from "./Popup";
 import logo from "../images/logo.svg";
 import cart from "../images/cart.svg";
@@ -7,6 +10,7 @@ import profile from "../images/profile.svg"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isCartOpen, setCartOpen] = useState(false);
     const [sticky, setSticky] = useState("");
 
     useEffect(() => {
@@ -20,8 +24,8 @@ const Header = () => {
         setSticky(stickyClass);
     };
 
-    const togglePopup = () => {
-        setIsOpen(!isOpen);
+    const togglePopup = (state, setState) => {
+        setState(!state);
     };
 
     return (
@@ -50,15 +54,38 @@ const Header = () => {
             <ul className="header__loginAndCart">
                 <ul className="header__links">
                     <li className="header__price">25$</li>
-                    <li><img src={cart} alt="cart"></img></li>
+                    <li>
+                        <button
+                            className="header__button"
+                            onClick={() => togglePopup(isCartOpen, setCartOpen)}
+                        >
+                            <img src={cart} alt="cart"></img>
+                        </button>
+                        {isCartOpen && <Popup
+                            closePopup={() => togglePopup(isCartOpen, setCartOpen)}
+                            body={<>nana</>}
+                        />}
+                    </li>
                 </ul>
                 <li>
                     <button
-                        className="header__loginButton"
+                        className="header__button"
                         value="Click to Open Popup"
-                        onClick={togglePopup}><img src={profile} alt="profile"></img></button>
+                        onClick={() => togglePopup(isOpen, setIsOpen)}><img src={profile} alt="profile"></img></button>
                     {isOpen && <Popup
-                        closePopup={togglePopup}
+                        closePopup={() => togglePopup(isOpen, setIsOpen)}
+                        body={<Form
+                            lastInput={<PasswordInput />}
+                            extraContent={
+                                <div className="form__loginButtons">
+                                    <button className="form__loginButton">Log in</button>
+                                    <button className="form__loginButton">Sign up</button>
+                                </div>
+                            }
+                            button={<Button
+                                title={"LOG IN"}
+                            />}
+                        />}
                     />}
                 </li>
             </ul>

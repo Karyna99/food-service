@@ -12,7 +12,7 @@ const data = [
     {
         id: 2,
         question: "HOW TO PAY FOR THE DELIVERY SERVICE?",
-        answer: "Elit exercitation laborum consectetur sit."
+        answer: "You can pay for delivery online, as well as by card or in cash to the courier"
     },
     {
         id: 3,

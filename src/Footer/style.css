@@ -28,6 +28,7 @@
 
 .footer__links--app > img {
     margin-right: 1em;
+    cursor: pointer;
 }
 
 .footer__links--socialMedia {
@@ -37,4 +38,5 @@
 
 .footer__links--socialMedia > img {
     margin-right: 1em;
+    cursor: pointer;
 }
