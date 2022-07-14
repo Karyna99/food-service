@@ -42,6 +42,7 @@ const ProductsSection = ({ sectionName }) => {
             <div className="products__grid">
                 {filteredProducts.map(product => (
                     <ProductCard
+                        key={product.id}
                         source={product.source}
                         price={product.price}
                         product={product.name}

@@ -15,6 +15,7 @@ const Tabs = () => {
             <div className="tabs__questions">
                 {data.map(question => (
                     <button
+                        key={question.id}
                         className={`tab__button ${activeTab === question.id ? "button--active" : ""}`}
                         onClick={() => toggleTab(question.id)}
                     >{question.question}</button>
@@ -23,10 +24,11 @@ const Tabs = () => {
             <div className="tabs__answers">
                 {data.map(question => (
                     <p
-                    className={`answer__content ${activeTab === question.id ? "answer--active" : ""}`}
-                >
-                    {question.answer}
-                </p>
+                        key={question.id}
+                        className={`answer__content ${activeTab === question.id ? "answer--active" : ""}`}
+                    >
+                        {question.answer}
+                    </p>
                 ))}
             </div>
         </div>
