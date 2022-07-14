@@ -11,10 +11,10 @@ const PasswordInput = () => {
     };
 
     return (
-        <div>
+        <div className="form__inputContainer">
             <input
                 placeholder="PASSWORD"
-                className="form__input"
+                className="form__input--third"
                 type={visibility ? "text" : "password"}></input>
             <button 
             className="input__button"

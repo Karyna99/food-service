@@ -2,7 +2,7 @@ import "./style.css";
 import { useEffect, useState } from "react";
 import Form from "./../Form";
 import Button from "./../Button";
-import PasswordInput from "./../Form/passwordInput";
+import PasswordInput from "../Form/PasswordInput";
 import Popup from "./Popup";
 import logo from "../images/logo.svg";
 import cart from "../images/cart.svg";

@@ -1,5 +1,5 @@
 .form {
-    padding: 60px 0;
+    padding: 60px 0px;
 }
 
 .form__fieldset {
@@ -8,6 +8,13 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
+}
+
+.form__inputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px #9F9F9F solid;
 }
 
 .form__input {
@@ -19,6 +26,14 @@
     width: 25%;
 }
 
+.form__input--third {
+    border: none;
+    outline: none;
+    padding-bottom: 1em;
+    font-weight: 600;
+}
+
+
 .form__paragraph {
     color: #9F9F9F;
     font-size: 10px;
@@ -27,4 +42,11 @@
 .input__button {
     border: none;
     background-color: white;
+    padding-bottom: 0.5em;
+}
+
+.form__loginButton{
+    border:none;
+    background: none;
+    padding: 1em 0;
 }

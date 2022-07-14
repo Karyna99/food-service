@@ -80,6 +80,7 @@ function App() {
               please fill out the form, our manager will contact you</p>
             <Form
               placeholder={"MOBILE NUMBER"}
+              lastInput={<input placeholder="NAME" className="form__input"></input>}
             />
             <Button
               title={"SUBMIT"}
