@@ -1,5 +1,6 @@
+import React from 'react';
 import './App.css';
-import Section, { SectionAbout } from './Section';
+import { SectionAbout } from './Section';
 import Container from './Container';
 import Header from './Header';
 import Footer from './Footer';
@@ -10,10 +11,9 @@ import BigText from './BigText';
 import Stats from './Stats';
 import Form from './Form';
 import Tabs from './FAQ';
+const Section = React.lazy(() => import('./Section'))
 
 function App() {
-
-
   return (
     <Container>
       <Section
