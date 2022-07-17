@@ -7,7 +7,7 @@ const Popup = ({ closePopup, body }) => {
                 <button
                     className="popup__closeIcon"
                     onClick={closePopup}
-                >x</button>
+                >✕</button>
                 {body}
             </div>
         </div>

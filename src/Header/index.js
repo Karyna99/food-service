@@ -75,6 +75,7 @@ const Header = () => {
                     {isOpen && <Popup
                         closePopup={() => togglePopup(isOpen, setIsOpen)}
                         body={<Form
+                            popup={"form__popup"}
                             lastInput={<PasswordInput />}
                             extraContent={
                                 <div className="form__loginButtons">

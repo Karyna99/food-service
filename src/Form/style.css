@@ -2,6 +2,10 @@
     padding: 60px 0px;
 }
 
+.form__popup {
+    padding: 60px 60px;
+}
+
 .form__fieldset {
     border: none;
     display: flex;

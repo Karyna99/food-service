@@ -1,9 +1,9 @@
 import "./style.css";
 
-const Form = ({ button, extraContent, lastInput }) => {
+const Form = ({ button, extraContent, lastInput, popup }) => {
 
     return (
-        <div className="form">
+        <div className={`form ${popup}`}>
             <fieldset className="form__fieldset">
                 <input placeholder="NAME" className="form__input"></input>
                 <input placeholder="E-MAIL" className="form__input"></input>
