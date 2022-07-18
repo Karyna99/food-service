@@ -7,6 +7,7 @@ import Popup from "./Popup";
 import logo from "../images/logo.svg";
 import cart from "../images/cart.svg";
 import profile from "../images/profile.svg"
+import Cart from "../features/cart/Cart";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -63,7 +64,7 @@ const Header = () => {
                         </button>
                         {isCartOpen && <Popup
                             closePopup={() => togglePopup(isCartOpen, setCartOpen)}
-                            body={<>nana</>}
+                            body={<Cart/>}
                         />}
                     </li>
                 </ul>
